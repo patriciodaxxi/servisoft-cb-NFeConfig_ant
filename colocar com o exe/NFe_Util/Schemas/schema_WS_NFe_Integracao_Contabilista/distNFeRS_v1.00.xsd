@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by sas-softwares@procergs.rs.gov.br (PROCERGS) -->
+<xs:schema xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/nfe" targetNamespace="http://www.portalfiscal.inf.br/nfe" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="leiauteDistNFeRS_v1.00.xsd"/>
+	<xs:element name="distNFeRS" type="TDistNFeRS">
+		<xs:annotation>
+			<xs:documentation>
+        A SEFAZ-RS irá disponibilizar um serviço (Web Service) com a funcionalidade de download
+        destes documentos para um determinado CNPJ informado. O Requisitante deverá ser identificado
+        através do seu Certificado Digital, devendo também possuir uma autorização eletrônica de acesso
+        aos dados, concedida por representante da empresa Contribuinte do Estado do RS, cujo CNPJ
+        está sendo consultado.
+
+        Os documentos (arquivo XML) a serem disponibilizados para o CNPJ informado são:
+        • Nota Fiscal Eletrônica;
+        • Evento de Cancelamento (tpEvento=110111);
+        • Evento de Carta de Correção Eletrônica (tpEvento=110110);
+        • Eventos da Manifestação de Destinatário, compreendendo os eventos de:
+        o Confirmação da Operação (tpEvento=210200);
+        o Desconhecimento da Operação (tpEvento=210220);
+        o Operação não Realizada (tpEvento=210240).
+
+      </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><NFS-e>
+   <infNFSe versao='1.00'>
+      <Id>
+         <cNFS-e>773385246</cNFS-e>
+         <natOp>Prestacao de Servicos</natOp>
+         <mod>55</mod>
+         <serie>T  </serie>
+         <nNFS-e>11</nNFS-e>
+         <dEmi>2014-11-24</dEmi>
+         <tpNF>1</tpNF>
+         <cMunFG>4303905</cMunFG>
+         <refNF>43036479340001085500T000000011773385246</refNF>
+         <tpEmis>N</tpEmis>
+         <anulada>N</anulada>
+         <notadebito>N</notadebito>
+         <canhoto>N</canhoto>
+      </Id>
+      <emit>
+         <CNPJ>03647934000108</CNPJ>
+         <xNome>ORGANIZAA A ES CONTABEIS SCHMOKEL LTDA</xNome>
+         <xFant>SCHMOKEL</xFant>
+         <IM>12065</IM>
+         <end>
+            <xLgr>AV. BRASIL,2680</xLgr>
+            <nro>2680</nro>
+            <xCpl>BLOCO A SL 1</xCpl>
+            <xBairro>CENTRO</xBairro>
+            <cMun>4303905</cMun>
+            <xMun>CAMPO BOM</xMun>
+            <UF>RS</UF>
+            <CEP>93700000</CEP>
+            <cPais>1058</cPais>
+            <xPais>Brasil</xPais>
+            <fone>5135973546</fone>
+         </end>
+      </emit>
+      <TomS>
+         <CNPJ>09312127000110 </CNPJ>
+         <xNome>SERVISOFT &amp; INFORMATICA LTDA</xNome>
+         <ender>
+            <xLgr>R. SANTO &amp; INACIO DE LOIOLA</xLgr>
+            <nro>195</nro>
+            <xBairro>CENTRO</xBairro>
+            <cMun>4303905</cMun>
+            <xMun>CAMPO BOM</xMun>
+            <UF>RS</UF>
+            <CEP>93700000</CEP>
+            <cPais>1058</cPais>
+            <xPais>BRASIL</xPais>
+            <fone>5135986584</fone>
+         </ender>
+         <xEmail>inacio@servisoft.com.br</xEmail>
+         <Praca>CAMPO BOM-RS</Praca>
+      </TomS>
+      <det>
+         <nItem>1</nItem>
+         <serv>
+            <cServ>20025</cServ>
+            <xServ>ENCARGOS SOCIAIS</xServ>
+            <uTrib>UN</uTrib>
+            <qTrib>1.000</qTrib>
+            <vUnit>15.50</vUnit>
+            <vServ>15.50</vServ>
+            <vDesc>0.00</vDesc>
+            <vBCISS>0.00</vBCISS>
+            <pISS>0.00</pISS>
+            <vISS>0.00</vISS>
+            <vRed>0.00</vRed>
+         </serv>
+      </det>
+      <total>
+         <vServ>15.50</vServ>
+         <vDesc>0.00</vDesc>
+         <vOutro>0.00</vOutro>
+         <vtNF>15.50</vtNF>
+         <vtLiq>15.50</vtLiq>
+         <fat>
+            <nFat>11</nFat>
+            <vOrig>15.50</vOrig>
+            <vLiq>15.50</vLiq>
+         </fat>
+         <ISS>
+            <vBCISS>0.00</vBCISS>
+            <vISS>0.00</vISS>
+            <vBCSTISS>0.00</vBCSTISS>
+            <vSTISS>0.00</vSTISS>
+         </ISS>
+      </total>
+      <cobr>
+         <dup>
+            <nDup>1</nDup>
+            <dVenc>2014-12-08</dVenc>
+            <vDup>15.50</vDup>
+         </dup>
+      </cobr>
+   </infNFSe>
+</NFS-e>

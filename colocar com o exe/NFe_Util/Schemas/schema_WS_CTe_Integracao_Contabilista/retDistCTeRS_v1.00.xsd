@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by sas-softwares@procergs.rs.gov.br (PROCERGS) -->
+<xs:schema xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/cte" targetNamespace="http://www.portalfiscal.inf.br/cte" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="leiauteDistCTeRS_v1.00.xsd"/>
+	<xs:element name="retDistCTeRS" type="TRetDistCTeRS">
+		<xs:annotation>
+			<xs:documentation>Retorno do pedido de distribuição de DF-e autorizados pela SEFAZ Virtual para as Secretarias de Fazendas dos Estados participantes desta SEFAZ Virtual. No caso específico, a distribuição de documentos se refere aos documentos vinculados a CT-e, Conhecimento de Transporte Eletrônico (Modelo=57). Assim, considerar como DF-e: 
+				- o CT-e e respectiva autorização ou denegação de uso;
+				- o Pedido de Inutilização de Numeração e respectiva homologação de inutilização;
+				- o Evento do CT-e e respectiva homologação de registro do evento.
+			</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>
