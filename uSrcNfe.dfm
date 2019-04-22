@@ -46,6 +46,7 @@ object SrvNfe: TSrvNfe
       'Interbase TransIsolation=ReadCommited'
       'Trim Char=False')
     VendorLib = 'gds32.dll'
+    Connected = True
     Left = 56
     Top = 136
   end

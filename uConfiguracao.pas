@@ -466,8 +466,8 @@ end;
 
 procedure TfrmConfiguracao.FormActivate(Sender: TObject);
 begin
-  sbStatus.Panels[0].Text := 'v.24/11/2018-v.40';
-end;                                           
+  sbStatus.Panels[0].Text := 'v.22/04/2019-v.41';
+end;
 
 procedure TfrmConfiguracao.HabilitarItem(APropItem: TNxPropertyItem; AHabilitar: Boolean);
 var

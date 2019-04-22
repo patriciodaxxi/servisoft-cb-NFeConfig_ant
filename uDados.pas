@@ -1270,13 +1270,22 @@ var
   msgRetWS: WideString;
   msgResultado: Widestring;
   RetXML: TStringStream;
+  vVersao : String;
+  vMSG : String;
 begin
+  vVersao := '4.00';
+  if (aUF = 'AM') or (aUF = 'MG') or (aUF = 'PE') then
+   vVersao := '2.00';
+  if (aUF = 'MT') then
+   vVersao := '3.00';
+
   NfeUtil := CoUtil.Create;
   try
     I := NfeUtil.ConsultaCad2G(AUF,
                                FAmbiente + 1,
                                Certificado.ChaveAcesso,
-                               '4.00',
+                               //'4.00', //alterar para 4.00 aqui Cleomar
+                               vVersao,
                                msgDados,
                                msgRetWS,
                                msgResultado,

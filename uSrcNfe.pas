@@ -4,9 +4,10 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, SvcMgr, Dialogs,
-  DBXpress, DB, SqlExpr, uDados, IdServerIOHandler, Contnrs,
-  IdServerIOHandlerSocket, IdBaseComponent, IdComponent, IdTCPServer,
-  IdIOHandler, IdIOHandlerStream, FMTBcd, DBClient, Provider, MidasLib, IniFiles;
+  DBXpress, DB, SqlExpr, uDados, FMTBcd, DBClient,
+  Provider, IdIOHandler, IdIOHandlerStream, IdServerIOHandler,
+  IdServerIOHandlerSocket, IdBaseComponent, IdComponent, Contnrs,
+  IdTCPServer, MidasLib, IniFiles;
 
 type
   TSrvComandoEvent = procedure (AConnection: TIdTCPServerConnection; ACertificado: ICertificadoDigital) of object;

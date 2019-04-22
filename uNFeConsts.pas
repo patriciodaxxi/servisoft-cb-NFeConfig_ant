@@ -34,6 +34,8 @@ const
   NFe_IntegracaoContab                  = 0028;
   NFe_EnviarNFSinc                      = 0029;
 
+  //teste 
+
   NFSe_Comandos                         = 1000;
   NFSe_GerarLote                        = 1001;
   NFSe_EnviarLote                       = 1002;

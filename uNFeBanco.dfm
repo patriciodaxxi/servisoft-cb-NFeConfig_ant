@@ -112,8 +112,8 @@ object dmNFeBanco: TdmNFeBanco
         ParamType = ptInput
       end>
     SQLConnection = SrvNfe.scoNFE
-    Left = 32
-    Top = 136
+    Left = 35
+    Top = 148
     object sdsNFeID: TIntegerField
       FieldName = 'ID'
       ProviderFlags = [pfInWhere, pfInKey]
